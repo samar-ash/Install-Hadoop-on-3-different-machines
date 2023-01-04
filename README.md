@@ -4,11 +4,16 @@
 First, create 3 virtual machines and install Ubuntu OS on them. While installing ubuntu OS on virtual machines, create both test and hduser OS users.
 Then assign IP to each of them. I used the following IP addresses: 192.168.6.101 for master worker, and 192.168.56.102, 192.168.56.103 for two slave workers.
 The Network setting could be as follows:
-![image](https://user-images.githubusercontent.com/15922299/210484433-649f97ea-caf7-407a-8fdd-54391b7681b4.png)
-![image](https://user-images.githubusercontent.com/15922299/210484511-69c82687-2079-40ff-bc80-76baf996c087.png)
-![image](https://user-images.githubusercontent.com/15922299/210484538-a5bfe62c-fe31-4335-9f36-d0e6b8d1e7fa.png)
-![image](https://user-images.githubusercontent.com/15922299/210484568-0a5f156d-1df7-47e6-8bc2-1bb075003672.png)
-![image](https://user-images.githubusercontent.com/15922299/210484579-37971e0f-e1b6-4d4d-85a3-9c4ae939e193.png)
+![image](https://user-images.githubusercontent.com/15922299/210486836-3917246d-8fe4-4c16-a946-3b27d028993d.png)
+
+![image](https://user-images.githubusercontent.com/15922299/210487066-051bc4d0-f929-49fe-93ef-4569069f9c82.png)
+
+![image](https://user-images.githubusercontent.com/15922299/210486880-c490b3fc-9d21-4bdf-bf2b-f44dfd1f6b45.png)
+
+![image](https://user-images.githubusercontent.com/15922299/210486913-2469178b-d133-42f6-a752-204f3f15b552.png)
+
+![image](https://user-images.githubusercontent.com/15922299/210486923-972ccad6-0846-40aa-9d48-5f867b02519f.png)
+
 2.	INSTALLATION
 
 After the master and slave nodes are getting ready, it is time to run the script below. The script can be used on both master and slaves installations with a simple question from the beginning of script which determines if it is Master or Slave Node. Also, it asks for IPs of the workers and save them to the variables for further use.
