@@ -14,8 +14,10 @@ The Network setting could be as follows:
 After the master and slave nodes are getting ready, it is time to run the script below. The script can be used on both master and slaves installations with a simple question from the beginning of script which determines if it is Master or Slave Node. Also, it asks for IPs of the workers and save them to the variables for further use.
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻—
+
+
 #!/bin/bash
-#Ashrafi Samar 12/2022 V2
+
 
 username="hduser"
 echo "Master or Slave(m/s)?:"
